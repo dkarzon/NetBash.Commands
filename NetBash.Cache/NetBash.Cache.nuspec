@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>NetBash.Cache</id>
+		<version>0.1</version>
+		<authors>Damian Karzon</authors>
+		<owners>Damian Karzon</owners>
+		<description>Cache manager command for NetBash</description>
+		<language>en-AU</language>
+		<projectUrl>https://github.com/dkarzon/NetBash.Commands</projectUrl>
+		<tags>NetBash cache</tags>
+        <dependencies>
+            <dependency id="NetBash" version="0.3" />
+        </dependencies>
+	</metadata>
+    <files>
+        <file src="bin\Release\NetBash.Cache.dll" target="lib\net40" />
+    </files>
+</package>
